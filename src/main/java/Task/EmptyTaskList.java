@@ -1,4 +1,4 @@
-package Task;
+package task;
 
 public class EmptyTaskList extends Exception {
     /**
@@ -9,5 +9,4 @@ public class EmptyTaskList extends Exception {
     public EmptyTaskList(String message) {
         super(message);
     }
-}
 }
